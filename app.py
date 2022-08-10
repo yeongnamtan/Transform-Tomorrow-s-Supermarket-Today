@@ -18,7 +18,7 @@ def img_to_bytes(img_path):
 
 
 header_html = "<img src='data:image/png;base64,{}' class='img-fluid'>".format(
-    img_to_bytes("Supermarket.png")
+    img_to_bytes("Supermarket.PNG")
 )
 st.markdown(
     header_html, unsafe_allow_html=True
